@@ -81,12 +81,6 @@ class SeriesResult:
 
 def import_optional_modules():
     modules = {}
-    try:
-        from pandas_datareader import data as pdr  # type: ignore
-        modules["pdr"] = pdr
-    except Exception as exc:
-        modules["pdr"] = None
-        modules["pdr_error"] = str(exc)
 
     try:
         import yfinance as yf  # type: ignore
@@ -96,7 +90,6 @@ def import_optional_modules():
         modules["yf_error"] = str(exc)
 
     return modules
-
 
 def clean_series(series: pd.Series) -> pd.Series:
     series = pd.to_numeric(series, errors="coerce").dropna()
