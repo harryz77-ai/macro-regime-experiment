@@ -1,26 +1,26 @@
 {
-  "fetch_time_utc": "2026-05-17T11:11:19.588800+00:00",
-  "previous_regime": null,
+  "fetch_time_utc": "2026-05-17T12:03:43.863364+00:00",
+  "previous_regime": "R1",
   "features": {
-    "us2y_level": null,
-    "us10y_level": null,
-    "us30y_level": null,
-    "us10y_5d_change_bp": null,
-    "us10y_20d_change_bp": null,
-    "us10y_60d_change_bp": null,
-    "us30y_5d_change_bp": null,
-    "us30y_20d_change_bp": null,
-    "us30y_60d_change_bp": null,
-    "curve_10y2y": null,
-    "curve_30y10y": null,
-    "hy_oas_level": null,
-    "ig_oas_level": null,
-    "hy_oas_5d_change_bp": null,
-    "hy_oas_20d_change_bp": null,
-    "hy_oas_60d_change_bp": null,
-    "ig_oas_5d_change_bp": null,
-    "ig_oas_20d_change_bp": null,
-    "ig_oas_60d_change_bp": null,
+    "us2y_level": 4.0,
+    "us10y_level": 4.47,
+    "us30y_level": 5.02,
+    "us10y_5d_change_bp": 5.999999999999961,
+    "us10y_20d_change_bp": 14.999999999999947,
+    "us10y_60d_change_bp": 38.99999999999997,
+    "us30y_5d_change_bp": 4.999999999999982,
+    "us30y_20d_change_bp": 8.999999999999986,
+    "us30y_60d_change_bp": 31.99999999999994,
+    "curve_10y2y": 0.46999999999999975,
+    "curve_30y10y": 0.5499999999999998,
+    "hy_oas_level": 2.76,
+    "ig_oas_level": 0.76,
+    "hy_oas_5d_change_bp": -3.000000000000025,
+    "hy_oas_20d_change_bp": -10.000000000000009,
+    "hy_oas_60d_change_bp": -10.000000000000009,
+    "ig_oas_5d_change_bp": -3.0000000000000027,
+    "ig_oas_20d_change_bp": -5.000000000000004,
+    "ig_oas_60d_change_bp": -2.0000000000000018,
     "dxy_latest": 99.2699966430664,
     "dxy_5d_return": 1.4615702766762828,
     "dxy_20d_return": 1.1926587024911672,
@@ -40,7 +40,7 @@
     "tlt_latest": 83.66000366210938,
     "tlt_5d_return": -2.811336103006745,
     "tlt_20d_return": -3.5615822484453608,
-    "tlt_60d_return": -5.618421231569726,
+    "tlt_60d_return": -5.6184293551342135,
     "uup_latest": 27.770000457763672,
     "uup_5d_return": 1.572788232538036,
     "uup_20d_return": 1.4985374205620072,
@@ -64,17 +64,21 @@
   },
   "classification": {
     "scores": {
-      "R0": 0,
-      "R1": 3,
+      "R0": 2,
+      "R1": 4,
       "R2": 0,
       "R3": 1
     },
     "evidence": {
-      "R0": [],
+      "R0": [
+        "10Y yield is high but not accelerating",
+        "equity resilience with stable credit"
+      ],
       "R1": [
         "DXY strengthened over 20D",
         "IWM underperformed SPY over 20D",
-        "TLT sold off over 20D"
+        "TLT sold off over 20D",
+        "credit spread pressure is not yet disorderly"
       ],
       "R2": [],
       "R3": [
@@ -82,17 +86,22 @@
       ]
     },
     "signal_probability": {
-      "R0": 0.06557928642306159,
-      "R1": 0.7228920411580229,
-      "R2": 0.06557928642306159,
-      "R3": 0.14594938599585397
+      "R0": 0.15141746645216986,
+      "R1": 0.7499756209573569,
+      "R2": 0.03057065924026564,
+      "R3": 0.06803625335020762
     },
-    "markov_prior": null,
+    "markov_prior": {
+      "R0": 0.25,
+      "R1": 0.43,
+      "R2": 0.18,
+      "R3": 0.14
+    },
     "posterior_probability": {
-      "R0": 0.06557928642306159,
-      "R1": 0.7228920411580229,
-      "R2": 0.06557928642306159,
-      "R3": 0.14594938599585397
+      "R0": 0.1859213531939104,
+      "R1": 0.637984153622282,
+      "R2": 0.08287092850617267,
+      "R3": 0.09322356467763496
     },
     "top_regime": "R1"
   },
@@ -100,38 +109,38 @@
     "items": {
       "us2y": {
         "group": "fred",
-        "source": "FRED",
-        "latest_date": null,
-        "freshness": "Missing",
-        "error": "pandas_datareader is not installed"
+        "source": "FRED:DGS2",
+        "latest_date": "2026-05-14",
+        "freshness": "Fresh",
+        "error": null
       },
       "us10y": {
         "group": "fred",
-        "source": "FRED",
-        "latest_date": null,
-        "freshness": "Missing",
-        "error": "pandas_datareader is not installed"
+        "source": "FRED:DGS10",
+        "latest_date": "2026-05-14",
+        "freshness": "Fresh",
+        "error": null
       },
       "us30y": {
         "group": "fred",
-        "source": "FRED",
-        "latest_date": null,
-        "freshness": "Missing",
-        "error": "pandas_datareader is not installed"
+        "source": "FRED:DGS30",
+        "latest_date": "2026-05-14",
+        "freshness": "Fresh",
+        "error": null
       },
       "hy_oas": {
         "group": "fred",
-        "source": "FRED",
-        "latest_date": null,
-        "freshness": "Missing",
-        "error": "pandas_datareader is not installed"
+        "source": "FRED:BAMLH0A0HYM2",
+        "latest_date": "2026-05-14",
+        "freshness": "Fresh",
+        "error": null
       },
       "ig_oas": {
         "group": "fred",
-        "source": "FRED",
-        "latest_date": null,
-        "freshness": "Missing",
-        "error": "pandas_datareader is not installed"
+        "source": "FRED:BAMLC0A0CM",
+        "latest_date": "2026-05-14",
+        "freshness": "Fresh",
+        "error": null
       },
       "dxy": {
         "group": "yahoo",
@@ -197,19 +206,13 @@
         "error": null
       }
     },
-    "missing": [
-      "us2y",
-      "us10y",
-      "us30y",
-      "hy_oas",
-      "ig_oas"
-    ],
+    "missing": [],
     "stale": [],
     "latest_market_date": "2026-05-15",
     "overall_freshness": "Fresh"
   },
   "alerts": {
-    "R1 continuation": "not confirmed",
+    "R1 continuation": "ON",
     "R2 upgrade warning": "not confirmed",
     "R3 policy-repair signal": "not confirmed"
   }
