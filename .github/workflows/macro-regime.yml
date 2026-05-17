@@ -27,6 +27,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Verify dependencies
+        run: |
+          python -c "import pandas_datareader; print('pandas_datareader OK')"
+          python -c "import yfinance; print('yfinance OK')"
+        
       - name: Run macro regime update
         run: |
           python runner.py \
