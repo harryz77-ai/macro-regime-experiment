@@ -1,0 +1,216 @@
+{
+  "fetch_time_utc": "2026-05-17T11:11:19.588800+00:00",
+  "previous_regime": null,
+  "features": {
+    "us2y_level": null,
+    "us10y_level": null,
+    "us30y_level": null,
+    "us10y_5d_change_bp": null,
+    "us10y_20d_change_bp": null,
+    "us10y_60d_change_bp": null,
+    "us30y_5d_change_bp": null,
+    "us30y_20d_change_bp": null,
+    "us30y_60d_change_bp": null,
+    "curve_10y2y": null,
+    "curve_30y10y": null,
+    "hy_oas_level": null,
+    "ig_oas_level": null,
+    "hy_oas_5d_change_bp": null,
+    "hy_oas_20d_change_bp": null,
+    "hy_oas_60d_change_bp": null,
+    "ig_oas_5d_change_bp": null,
+    "ig_oas_20d_change_bp": null,
+    "ig_oas_60d_change_bp": null,
+    "dxy_latest": 99.2699966430664,
+    "dxy_5d_return": 1.4615702766762828,
+    "dxy_20d_return": 1.1926587024911672,
+    "dxy_60d_return": 1.368320569503556,
+    "spy_latest": 739.1699829101562,
+    "spy_5d_return": 0.21013364648858612,
+    "spy_20d_return": 4.087921770763803,
+    "spy_60d_return": 8.28493373018684,
+    "qqq_latest": 708.9299926757812,
+    "qqq_5d_return": -0.32338172688570754,
+    "qqq_20d_return": 9.259462025191434,
+    "qqq_60d_return": 17.623727303466662,
+    "iwm_latest": 277.6000061035156,
+    "iwm_5d_return": -2.311998808378679,
+    "iwm_20d_return": 0.6599489927749502,
+    "iwm_60d_return": 5.099701132880496,
+    "tlt_latest": 83.66000366210938,
+    "tlt_5d_return": -2.811336103006745,
+    "tlt_20d_return": -3.5615822484453608,
+    "tlt_60d_return": -5.618421231569726,
+    "uup_latest": 27.770000457763672,
+    "uup_5d_return": 1.572788232538036,
+    "uup_20d_return": 1.4985374205620072,
+    "uup_60d_return": 2.396753681474606,
+    "eem_latest": 65.06999969482422,
+    "eem_5d_return": -4.224319463422477,
+    "eem_20d_return": 2.2470149574017384,
+    "eem_60d_return": 6.602225948315343,
+    "hyg_latest": 79.45999908447266,
+    "hyg_5d_return": -0.8485154858431598,
+    "hyg_20d_return": -0.9592468666833942,
+    "hyg_60d_return": -0.3490611792817955,
+    "lqd_latest": 107.86000061035156,
+    "lqd_5d_return": -1.227102907819444,
+    "lqd_20d_return": -1.596884716814706,
+    "lqd_60d_return": -2.3085027600108665,
+    "iwm_spy_20d_relative": -3.4279727779888525,
+    "eem_spy_20d_relative": -1.8409068133620643,
+    "qqq_spy_20d_relative": 5.171540254427631,
+    "sovereign_spread_change_bp": null
+  },
+  "classification": {
+    "scores": {
+      "R0": 0,
+      "R1": 3,
+      "R2": 0,
+      "R3": 1
+    },
+    "evidence": {
+      "R0": [],
+      "R1": [
+        "DXY strengthened over 20D",
+        "IWM underperformed SPY over 20D",
+        "TLT sold off over 20D"
+      ],
+      "R2": [],
+      "R3": [
+        "SPY and QQQ rallied over 20D"
+      ]
+    },
+    "signal_probability": {
+      "R0": 0.06557928642306159,
+      "R1": 0.7228920411580229,
+      "R2": 0.06557928642306159,
+      "R3": 0.14594938599585397
+    },
+    "markov_prior": null,
+    "posterior_probability": {
+      "R0": 0.06557928642306159,
+      "R1": 0.7228920411580229,
+      "R2": 0.06557928642306159,
+      "R3": 0.14594938599585397
+    },
+    "top_regime": "R1"
+  },
+  "metadata": {
+    "items": {
+      "us2y": {
+        "group": "fred",
+        "source": "FRED",
+        "latest_date": null,
+        "freshness": "Missing",
+        "error": "pandas_datareader is not installed"
+      },
+      "us10y": {
+        "group": "fred",
+        "source": "FRED",
+        "latest_date": null,
+        "freshness": "Missing",
+        "error": "pandas_datareader is not installed"
+      },
+      "us30y": {
+        "group": "fred",
+        "source": "FRED",
+        "latest_date": null,
+        "freshness": "Missing",
+        "error": "pandas_datareader is not installed"
+      },
+      "hy_oas": {
+        "group": "fred",
+        "source": "FRED",
+        "latest_date": null,
+        "freshness": "Missing",
+        "error": "pandas_datareader is not installed"
+      },
+      "ig_oas": {
+        "group": "fred",
+        "source": "FRED",
+        "latest_date": null,
+        "freshness": "Missing",
+        "error": "pandas_datareader is not installed"
+      },
+      "dxy": {
+        "group": "yahoo",
+        "source": "Yahoo:DX-Y.NYB",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "spy": {
+        "group": "yahoo",
+        "source": "Yahoo:SPY",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "qqq": {
+        "group": "yahoo",
+        "source": "Yahoo:QQQ",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "iwm": {
+        "group": "yahoo",
+        "source": "Yahoo:IWM",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "tlt": {
+        "group": "yahoo",
+        "source": "Yahoo:TLT",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "uup": {
+        "group": "yahoo",
+        "source": "Yahoo:UUP",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "eem": {
+        "group": "yahoo",
+        "source": "Yahoo:EEM",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "hyg": {
+        "group": "yahoo",
+        "source": "Yahoo:HYG",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      },
+      "lqd": {
+        "group": "yahoo",
+        "source": "Yahoo:LQD",
+        "latest_date": "2026-05-15",
+        "freshness": "Fresh",
+        "error": null
+      }
+    },
+    "missing": [
+      "us2y",
+      "us10y",
+      "us30y",
+      "hy_oas",
+      "ig_oas"
+    ],
+    "stale": [],
+    "latest_market_date": "2026-05-15",
+    "overall_freshness": "Fresh"
+  },
+  "alerts": {
+    "R1 continuation": "not confirmed",
+    "R2 upgrade warning": "not confirmed",
+    "R3 policy-repair signal": "not confirmed"
+  }
+}
