@@ -98,16 +98,49 @@ def clean_series(series: pd.Series) -> pd.Series:
     return series
 
 
-def fetch_fred_series(name: str, series_id: str, start: str, pdr: Any) -> SeriesResult:
-    if pdr is None:
-        return SeriesResult(name, "FRED", None, "pandas_datareader is not installed")
+def fetch_fred_series(name: str, series_id: str, start: str) -> SeriesResult:
+    """
+    Fetch a FRED series through FRED's public CSV endpoint.
+
+    This avoids pandas_datareader, which can break when pandas changes
+    internal utility APIs.
+    """
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
 
     try:
-        df = pdr.DataReader(series_id, "fred", start)
+        df = pd.read_csv(url)
+
         if df.empty:
-            return SeriesResult(name, "FRED", None, f"No data returned for {series_id}")
-        s = clean_series(df.iloc[:, 0])
-        return SeriesResult(name, f"FRED:{series_id}", s, None)
+            return SeriesResult(name, f"FRED:{series_id}", None, f"No data returned for {series_id}")
+
+        if "observation_date" in df.columns:
+            date_col = "observation_date"
+        elif "DATE" in df.columns:
+            date_col = "DATE"
+        else:
+            return SeriesResult(name, f"FRED:{series_id}", None, f"No date column found for {series_id}")
+
+        if series_id in df.columns:
+            value_col = series_id
+        else:
+            value_candidates = [c for c in df.columns if c != date_col]
+            if not value_candidates:
+                return SeriesResult(name, f"FRED:{series_id}", None, f"No value column found for {series_id}")
+            value_col = value_candidates[0]
+
+        dates = pd.to_datetime(df[date_col], errors="coerce")
+        values = pd.to_numeric(df[value_col].replace(".", np.nan), errors="coerce")
+
+        s = pd.Series(values.to_numpy(), index=dates).dropna().sort_index()
+
+        if start:
+            s = s[s.index >= pd.Timestamp(start)]
+
+        if s.empty:
+            return SeriesResult(name, f"FRED:{series_id}", None, f"No non-missing observations after {start}")
+
+        return SeriesResult(name, f"FRED:{series_id}", clean_series(s), None)
+
     except Exception as exc:
         return SeriesResult(name, f"FRED:{series_id}", None, str(exc))
 
@@ -662,10 +695,10 @@ def main() -> int:
         else:
             previous_regime = None
 
-    fred = {
-        name: fetch_fred_series(name, series_id, args.start, modules.get("pdr"))
-        for name, series_id in FRED_SERIES.items()
-    }
+     fred = {
+    name: fetch_fred_series(name, series_id, args.start)
+    for name, series_id in FRED_SERIES.items()
+}
     yahoo = fetch_yahoo_data(YAHOO_TICKERS, args.period, modules.get("yf"))
 
     features = build_features(fred, yahoo, sovereign_spread_change_bp=None)
