@@ -695,10 +695,10 @@ def main() -> int:
         else:
             previous_regime = None
 
-     fred = {
-    name: fetch_fred_series(name, series_id, args.start)
-    for name, series_id in FRED_SERIES.items()
-}
+    fred = {
+        name: fetch_fred_series(name, series_id, args.start)
+        for name, series_id in FRED_SERIES.items()
+    }
     yahoo = fetch_yahoo_data(YAHOO_TICKERS, args.period, modules.get("yf"))
 
     features = build_features(fred, yahoo, sovereign_spread_change_bp=None)
