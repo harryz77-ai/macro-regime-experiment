@@ -1,5 +1,5 @@
 {
-  "fetch_time_utc": "2026-06-03T16:10:12.955637+00:00",
+  "fetch_time_utc": "2026-06-04T11:30:30.680431+00:00",
   "previous_regime": "R0",
   "features": {
     "us2y_level": null,
@@ -21,60 +21,60 @@
     "ig_oas_5d_change_bp": 0.0,
     "ig_oas_20d_change_bp": -4.0000000000000036,
     "ig_oas_60d_change_bp": -14.000000000000002,
-    "dxy_latest": 99.46299743652344,
-    "dxy_5d_return": 0.255012956743772,
-    "dxy_20d_return": 0.9981661718948764,
-    "dxy_60d_return": 0.28533689299947707,
-    "spy_latest": 755.1500244140625,
-    "spy_5d_return": 0.6249503376712928,
-    "spy_20d_return": 4.335632042777315,
-    "spy_60d_return": 11.63877136136129,
-    "qqq_latest": 743.52001953125,
-    "qqq_5d_return": 1.9288514755998687,
-    "qqq_20d_return": 9.082911857248588,
-    "qqq_60d_return": 22.492026143790845,
-    "iwm_latest": 288.1050109863281,
-    "iwm_5d_return": -0.780033808226388,
-    "iwm_20d_return": 1.9624198314145636,
-    "iwm_60d_return": 13.799191235438668,
-    "tlt_latest": 85.15499877929688,
-    "tlt_5d_return": 0.22267043249497576,
-    "tlt_20d_return": 0.07016562350665723,
-    "tlt_60d_return": -3.4534813776557427,
-    "uup_latest": 27.864999771118164,
-    "uup_5d_return": 0.41441358961500363,
-    "uup_20d_return": 1.327271894975146,
-    "uup_60d_return": 1.4748750915819064,
-    "eem_latest": 69.82499694824219,
-    "eem_5d_return": 2.0982564284259153,
-    "eem_20d_return": 6.766047888565119,
-    "eem_60d_return": 19.461071063860636,
-    "hyg_latest": 79.67500305175781,
-    "hyg_5d_return": -0.05884598515634165,
-    "hyg_20d_return": 0.20376272101720883,
-    "hyg_60d_return": 0.9017342693612207,
-    "lqd_latest": 108.50499725341797,
-    "lqd_5d_return": -0.012563490622796714,
-    "lqd_20d_return": 0.2451154534315103,
-    "lqd_60d_return": -0.9271573279974188,
-    "iwm_spy_20d_relative": -2.373212211362752,
-    "eem_spy_20d_relative": 2.4304158457878033,
-    "qqq_spy_20d_relative": 4.7472798144712725,
+    "dxy_latest": 99.21800231933594,
+    "dxy_5d_return": 0.19996534334703053,
+    "dxy_20d_return": 1.2222053838993663,
+    "dxy_60d_return": 0.39259382889065275,
+    "spy_latest": 754.239990234375,
+    "spy_5d_return": 0.5036868255530402,
+    "spy_20d_return": 4.20989677395851,
+    "spy_60d_return": 11.504235051445932,
+    "qqq_latest": 744.2100219726562,
+    "qqq_5d_return": 2.0234436244598752,
+    "qqq_20d_return": 9.184143126777379,
+    "qqq_60d_return": 22.605701357466067,
+    "iwm_latest": 287.6700134277344,
+    "iwm_5d_return": -0.9298418345061621,
+    "iwm_20d_return": 1.8084710904914925,
+    "iwm_60d_return": 13.627370654505743,
+    "tlt_latest": 85.30999755859375,
+    "tlt_5d_return": 0.4050953258963874,
+    "tlt_20d_return": 0.2523129282806291,
+    "tlt_60d_return": -3.2777394342080712,
+    "uup_latest": 27.860000610351562,
+    "uup_5d_return": 0.3963985958614913,
+    "uup_20d_return": 1.309093128551142,
+    "uup_60d_return": 1.4566698441919712,
+    "eem_latest": 69.91999816894531,
+    "eem_5d_return": 2.2371674118313534,
+    "eem_20d_return": 6.911309690532397,
+    "eem_60d_return": 19.62360522889586,
+    "hyg_latest": 79.68000030517578,
+    "hyg_5d_return": -0.05257762928101428,
+    "hyg_20d_return": 0.21004754783329194,
+    "hyg_60d_return": 0.9080628732789364,
+    "lqd_latest": 108.62000274658203,
+    "lqd_5d_return": 0.09341415775327988,
+    "lqd_20d_return": 0.3513662182058397,
+    "lqd_60d_return": -0.8221490664511943,
+    "iwm_spy_20d_relative": -2.401425683467018,
+    "eem_spy_20d_relative": 2.7014129165738865,
+    "qqq_spy_20d_relative": 4.974246352818868,
     "sovereign_spread_change_bp": null
   },
   "classification": {
     "scores": {
-      "R0": 2,
-      "R1": 2,
+      "R0": 1,
+      "R1": 3,
       "R2": 0,
       "R3": 1
     },
     "evidence": {
       "R0": [
-        "equity resilience with stable credit",
-        "DXY is stable"
+        "equity resilience with stable credit"
       ],
       "R1": [
+        "DXY strengthened over 20D",
         "IWM underperformed SPY over 20D",
         "credit spread pressure is not yet disorderly"
       ],
@@ -84,10 +84,10 @@
       ]
     },
     "signal_probability": {
-      "R0": 0.3771840632745555,
-      "R1": 0.3771840632745555,
-      "R2": 0.07615214901820852,
-      "R3": 0.16947972443268056
+      "R0": 0.1350920263838904,
+      "R1": 0.6691151869566494,
+      "R2": 0.06070076027556984,
+      "R3": 0.1350920263838904
     },
     "markov_prior": {
       "R0": 0.55,
@@ -96,12 +96,12 @@
       "R3": 0.14
     },
     "posterior_probability": {
-      "R0": 0.4376696411284611,
-      "R1": 0.3326696411284611,
-      "R2": 0.07049889686183554,
-      "R3": 0.15916182088124237
+      "R0": 0.28030981714952874,
+      "R1": 0.5224248715218222,
+      "R2": 0.06045549417912039,
+      "R3": 0.13680981714952878
     },
-    "top_regime": "R0"
+    "top_regime": "R1"
   },
   "metadata": {
     "items": {
@@ -130,20 +130,20 @@
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
         "latest_date": "2026-06-02",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
         "latest_date": "2026-06-02",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-06-03",
+        "latest_date": "2026-06-04",
         "freshness": "Fresh",
         "error": null
       },
@@ -210,7 +210,7 @@
       "us30y"
     ],
     "stale": [],
-    "latest_market_date": "2026-06-03",
+    "latest_market_date": "2026-06-04",
     "overall_freshness": "Fresh"
   },
   "alerts": {
