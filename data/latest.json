@@ -1,5 +1,5 @@
 {
-  "fetch_time_utc": "2026-06-09T10:51:54.308531+00:00",
+  "fetch_time_utc": "2026-06-10T12:38:53.745575+00:00",
   "previous_regime": "R1",
   "features": {
     "us2y_level": null,
@@ -13,18 +13,18 @@
     "us30y_60d_change_bp": null,
     "curve_10y2y": null,
     "curve_30y10y": null,
-    "hy_oas_level": 2.76,
-    "ig_oas_level": 0.74,
-    "hy_oas_5d_change_bp": 1.9999999999999574,
-    "hy_oas_20d_change_bp": -3.000000000000025,
-    "hy_oas_60d_change_bp": -51.00000000000002,
-    "ig_oas_5d_change_bp": 0.0,
-    "ig_oas_20d_change_bp": -4.0000000000000036,
-    "ig_oas_60d_change_bp": -19.999999999999996,
-    "dxy_latest": 99.76499938964844,
-    "dxy_5d_return": 0.5492825662570144,
-    "dxy_20d_return": 1.8633825839794227,
-    "dxy_60d_return": -0.5928668962580264,
+    "hy_oas_level": 2.75,
+    "ig_oas_level": 0.75,
+    "hy_oas_5d_change_bp": 2.9999999999999805,
+    "hy_oas_20d_change_bp": -6.999999999999984,
+    "hy_oas_60d_change_bp": -47.00000000000002,
+    "ig_oas_5d_change_bp": 2.0000000000000018,
+    "ig_oas_20d_change_bp": -2.0000000000000018,
+    "ig_oas_60d_change_bp": -17.000000000000004,
+    "dxy_latest": 99.93699645996094,
+    "dxy_5d_return": 0.722631758150194,
+    "dxy_20d_return": 2.0389973134311568,
+    "dxy_60d_return": -0.4214867953547974,
     "spy_latest": 739.219970703125,
     "spy_5d_return": -2.546999220062507,
     "spy_20d_return": 0.21691054967718504,
@@ -127,21 +127,21 @@
       "hy_oas": {
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
-        "latest_date": "2026-06-05",
+        "latest_date": "2026-06-08",
         "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
-        "latest_date": "2026-06-05",
+        "latest_date": "2026-06-08",
         "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-06-09",
+        "latest_date": "2026-06-10",
         "freshness": "Fresh",
         "error": null
       },
@@ -149,56 +149,56 @@
         "group": "yahoo",
         "source": "Yahoo:SPY",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "qqq": {
         "group": "yahoo",
         "source": "Yahoo:QQQ",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "iwm": {
         "group": "yahoo",
         "source": "Yahoo:IWM",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "tlt": {
         "group": "yahoo",
         "source": "Yahoo:TLT",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "uup": {
         "group": "yahoo",
         "source": "Yahoo:UUP",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "eem": {
         "group": "yahoo",
         "source": "Yahoo:EEM",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "hyg": {
         "group": "yahoo",
         "source": "Yahoo:HYG",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "lqd": {
         "group": "yahoo",
         "source": "Yahoo:LQD",
         "latest_date": "2026-06-08",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       }
     },
@@ -208,7 +208,7 @@
       "us30y"
     ],
     "stale": [],
-    "latest_market_date": "2026-06-09",
+    "latest_market_date": "2026-06-10",
     "overall_freshness": "Fresh"
   },
   "alerts": {

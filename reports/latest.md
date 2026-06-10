@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-06-09T10:51:54.308531+00:00
-- Latest market date: 2026-06-09
+- Fetch time UTC: 2026-06-10T12:38:53.745575+00:00
+- Latest market date: 2026-06-10
 - Overall data freshness: Fresh
 - Missing fields: us2y, us10y, us30y
 - Stale fields: none
@@ -21,15 +21,15 @@
 |---|---:|---:|---:|---:|---|
 | US 10Y yield | missing | missing | missing | missing | Long-end rate pressure |
 | US 30Y yield | missing | missing | missing | missing | Term premium / fiscal supply pressure |
-| DXY | 99.76 | 0.55% | 1.86% | -0.59% | Dollar pressure |
+| DXY | 99.94 | 0.72% | 2.04% | -0.42% | Dollar pressure |
 | SPY | 739.22 | -2.55% | 0.22% | 11.29% | Broad risk asset |
 | QQQ | 716.07 | -3.59% | 0.68% | 20.04% | High-duration growth |
 | IWM | 284.11 | -1.69% | -0.02% | 15.04% | Small-cap financing sensitivity |
 | TLT | 84.62 | -0.99% | -1.31% | -1.57% | Long-duration bond stress |
 | EEM | 65.75 | -6.18% | -3.22% | 15.45% | EM dollar/rate transmission |
 | HYG | 79.54 | -0.38% | -0.24% | 1.77% | Credit market proxy |
-| HY OAS | 2.76% | 2.0 bp | -3.0 bp | -51.0 bp | Credit spread stress |
-| IG OAS | 0.74% | 0.0 bp | -4.0 bp | -20.0 bp | Investment-grade credit stress |
+| HY OAS | 2.75% | 3.0 bp | -7.0 bp | -47.0 bp | Credit spread stress |
+| IG OAS | 0.75% | 2.0 bp | -2.0 bp | -17.0 bp | Investment-grade credit stress |
 | IWM - SPY relative | n/a | n/a | -0.24 pp | n/a | Small-cap relative stress |
 | EEM - SPY relative | n/a | n/a | -3.44 pp | n/a | EM relative stress |
 
