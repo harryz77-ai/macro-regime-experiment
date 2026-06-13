@@ -2,7 +2,7 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-06-12T12:07:26.807393+00:00
+- Fetch time UTC: 2026-06-13T10:13:50.489563+00:00
 - Latest market date: 2026-06-12
 - Overall data freshness: Fresh
 - Missing fields: us2y, us10y, us30y
@@ -21,17 +21,17 @@
 |---|---:|---:|---:|---:|---|
 | US 10Y yield | missing | missing | missing | missing | Long-end rate pressure |
 | US 30Y yield | missing | missing | missing | missing | Term premium / fiscal supply pressure |
-| DXY | 99.77 | -0.30% | 0.90% | -0.32% | Dollar pressure |
-| SPY | 737.76 | -2.55% | -0.61% | 10.28% | Broad risk asset |
-| QQQ | 717.12 | -3.17% | 0.34% | 19.01% | High-duration growth |
-| IWM | 290.41 | -0.55% | 2.74% | 16.14% | Small-cap financing sensitivity |
-| TLT | 85.98 | 0.56% | 1.79% | -0.53% | Long-duration bond stress |
-| EEM | 67.50 | -2.32% | 0.43% | 14.89% | EM dollar/rate transmission |
-| HYG | 79.94 | 0.14% | 0.55% | 1.69% | Credit market proxy |
-| HY OAS | 2.80% | 5.0 bp | 4.0 bp | -47.0 bp | Credit spread stress |
-| IG OAS | 0.75% | 1.0 bp | -1.0 bp | -15.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | 3.35 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 1.04 pp | n/a | EM relative stress |
+| DXY | 99.75 | -0.32% | 0.88% | -0.34% | Dollar pressure |
+| SPY | 741.75 | 0.57% | -0.86% | 12.45% | Broad risk asset |
+| QQQ | 721.34 | 2.31% | 0.22% | 21.41% | High-duration growth |
+| IWM | 292.95 | 4.01% | 2.99% | 19.08% | Small-cap financing sensitivity |
+| TLT | 85.77 | 0.83% | 1.40% | -0.22% | Long-duration bond stress |
+| EEM | 67.88 | 5.09% | 0.74% | 17.93% | EM dollar/rate transmission |
+| HYG | 79.94 | 0.64% | 0.63% | 2.22% | Credit market proxy |
+| HY OAS | 2.78% | 4.0 bp | -2.0 bp | -46.0 bp | Credit spread stress |
+| IG OAS | 0.75% | 1.0 bp | 0.0 bp | -13.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | 3.85 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 1.60 pp | n/a | EM relative stress |
 
 ## 4. Regime Probability
 
