@@ -1,5 +1,5 @@
 {
-  "fetch_time_utc": "2026-06-19T02:17:07.425077+00:00",
+  "fetch_time_utc": "2026-06-20T01:35:49.887984+00:00",
   "previous_regime": "R0",
   "features": {
     "us2y_level": 4.2,
@@ -21,10 +21,10 @@
     "ig_oas_5d_change_bp": -1.0000000000000009,
     "ig_oas_20d_change_bp": -1.0000000000000009,
     "ig_oas_60d_change_bp": -14.000000000000002,
-    "dxy_latest": 100.86000061035156,
-    "dxy_5d_return": 1.0014019566272125,
-    "dxy_20d_return": 1.7657148514004017,
-    "dxy_60d_return": 1.4381980295552044,
+    "dxy_latest": 100.8489990234375,
+    "dxy_5d_return": 0.9903849459654612,
+    "dxy_20d_return": 1.754614471170024,
+    "dxy_60d_return": 1.4271333741390446,
     "spy_latest": 746.739990234375,
     "spy_5d_return": 1.4779536179954311,
     "spy_20d_return": 1.0001706370109886,
@@ -41,10 +41,10 @@
     "tlt_5d_return": 0.8955531670193917,
     "tlt_20d_return": 3.7912173275027827,
     "tlt_60d_return": 2.037062695584946,
-    "uup_latest": 28.299999237060547,
-    "uup_5d_return": 1.25223064245914,
-    "uup_20d_return": 2.055534454503105,
-    "uup_60d_return": 2.3508123960141347,
+    "uup_latest": 28.18000030517578,
+    "uup_5d_return": 0.4634619310202037,
+    "uup_20d_return": 1.403380269161958,
+    "uup_60d_return": 2.24964024400498,
     "eem_latest": 70.79000091552734,
     "eem_5d_return": 5.419189736969754,
     "eem_20d_return": 8.704477607743666,
@@ -53,10 +53,10 @@
     "hyg_5d_return": 0.08756528982536427,
     "hyg_20d_return": 0.7006749117686839,
     "hyg_60d_return": 2.6058299519721384,
-    "lqd_latest": 109.06999969482422,
-    "lqd_5d_return": -0.009169541678188953,
-    "lqd_20d_return": 1.420530728753877,
-    "lqd_60d_return": 1.8684086877594375,
+    "lqd_latest": 108.7699966430664,
+    "lqd_5d_return": 0.5639727813459006,
+    "lqd_20d_return": 1.925245769248618,
+    "lqd_60d_return": 1.3823402581310873,
     "iwm_spy_20d_relative": 4.867887624510492,
     "eem_spy_20d_relative": 7.704306970732677,
     "qqq_spy_20d_relative": 2.85174968307802,
@@ -141,7 +141,7 @@
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-06-18",
+        "latest_date": "2026-06-19",
         "freshness": "Fresh",
         "error": null
       },
@@ -176,8 +176,8 @@
       "uup": {
         "group": "yahoo",
         "source": "Yahoo:UUP",
-        "latest_date": "2026-06-18",
-        "freshness": "Fresh",
+        "latest_date": "2026-06-17",
+        "freshness": "Acceptable",
         "error": null
       },
       "eem": {
@@ -197,14 +197,14 @@
       "lqd": {
         "group": "yahoo",
         "source": "Yahoo:LQD",
-        "latest_date": "2026-06-18",
-        "freshness": "Fresh",
+        "latest_date": "2026-06-17",
+        "freshness": "Acceptable",
         "error": null
       }
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-06-18",
+    "latest_market_date": "2026-06-19",
     "overall_freshness": "Fresh"
   },
   "alerts": {
