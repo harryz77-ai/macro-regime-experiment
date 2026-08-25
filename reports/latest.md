@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-08-24T23:46:10.649579+00:00
-- Latest market date: 2026-08-24
+- Fetch time UTC: 2026-08-25T23:48:55.011661+00:00
+- Latest market date: 2026-08-25
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -19,19 +19,19 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.740% | 6.0 bp | 5.0 bp | 26.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.270% | 2.0 bp | 11.0 bp | 26.0 bp | Term premium / fiscal supply pressure |
-| DXY | 98.98 | -0.66% | -2.49% | -0.04% | Dollar pressure |
-| SPY | 763.47 | -1.19% | 3.30% | 1.44% | Broad risk asset |
-| QQQ | 706.32 | -3.23% | 3.55% | -3.87% | High-duration growth |
-| IWM | 297.97 | -2.00% | 1.73% | 2.28% | Small-cap financing sensitivity |
-| TLT | 82.56 | 1.49% | -1.02% | -2.58% | Long-duration bond stress |
-| EEM | 66.11 | -1.80% | 3.91% | -3.14% | EM dollar/rate transmission |
-| HYG | 79.70 | 0.11% | 1.03% | 0.80% | Credit market proxy |
-| HY OAS | 2.70% | 3.0 bp | -9.0 bp | -4.0 bp | Credit spread stress |
-| IG OAS | 0.81% | 1.0 bp | 1.0 bp | 7.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | -1.57 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 0.62 pp | n/a | EM relative stress |
+| US 10Y yield | 4.700% | -2.0 bp | 5.0 bp | 25.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.230% | -8.0 bp | 11.0 bp | 25.0 bp | Term premium / fiscal supply pressure |
+| DXY | 98.90 | -0.75% | -2.44% | -0.01% | Dollar pressure |
+| SPY | 765.91 | -0.20% | 3.38% | 1.51% | Broad risk asset |
+| QQQ | 710.72 | -0.95% | 5.22% | -3.63% | High-duration growth |
+| IWM | 299.23 | -0.33% | 2.00% | 3.28% | Small-cap financing sensitivity |
+| TLT | 83.47 | 2.22% | -0.51% | -1.53% | Long-duration bond stress |
+| EEM | 67.25 | 2.92% | 7.84% | -1.46% | EM dollar/rate transmission |
+| HYG | 79.92 | 0.49% | 1.12% | 0.98% | Credit market proxy |
+| HY OAS | 2.69% | -1.0 bp | -12.0 bp | -3.0 bp | Credit spread stress |
+| IG OAS | 0.81% | 0.0 bp | 0.0 bp | 8.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | -1.38 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 4.46 pp | n/a | EM relative stress |
 
 ## 4. Regime Probability
 
