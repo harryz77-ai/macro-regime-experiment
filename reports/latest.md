@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-09-04T01:09:43.651519+00:00
-- Latest market date: 2026-09-03
+- Fetch time UTC: 2026-09-05T01:14:52.214987+00:00
+- Latest market date: 2026-09-04
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -11,7 +11,7 @@
 ## 2. Current Regime Conclusion
 
 - Most likely regime: **R0 — High-rate absorption**
-- Posterior probability: **54.3%**
+- Posterior probability: **66.2%**
 - Previous regime: R0
 - Model type: deterministic feature scoring + optional Markov prior
 
@@ -19,32 +19,32 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.790% | 13.0 bp | 16.0 bp | 23.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.270% | 9.0 bp | 10.0 bp | 24.0 bp | Term premium / fiscal supply pressure |
-| DXY | 98.97 | -0.19% | -1.00% | -0.94% | Dollar pressure |
-| SPY | 765.16 | -0.12% | -0.60% | 3.78% | Broad risk asset |
-| QQQ | 709.24 | -0.30% | -1.12% | -0.84% | High-duration growth |
-| IWM | 294.01 | -1.65% | -1.92% | 3.73% | Small-cap financing sensitivity |
-| TLT | 81.95 | -1.24% | -0.89% | -2.03% | Long-duration bond stress |
-| EEM | 67.15 | -0.03% | 2.18% | 2.66% | EM dollar/rate transmission |
-| HYG | 79.11 | -0.45% | 0.03% | 0.96% | Credit market proxy |
-| HY OAS | 2.66% | -1.0 bp | -9.0 bp | -14.0 bp | Credit spread stress |
-| IG OAS | 0.81% | 1.0 bp | 3.0 bp | 6.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | -1.32 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 2.78 pp | n/a | EM relative stress |
+| US 10Y yield | 4.770% | 10.0 bp | 8.0 bp | 24.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.250% | 6.0 bp | 3.0 bp | 24.0 bp | Term premium / fiscal supply pressure |
+| DXY | 99.16 | -0.54% | -0.44% | -0.79% | Dollar pressure |
+| SPY | 773.17 | 0.27% | 0.60% | 5.17% | Broad risk asset |
+| QQQ | 717.67 | -0.48% | 0.42% | 1.50% | High-duration growth |
+| IWM | 295.19 | -1.54% | -1.03% | 3.81% | Small-cap financing sensitivity |
+| TLT | 82.07 | -0.90% | -0.16% | -2.46% | Long-duration bond stress |
+| EEM | 67.47 | -0.21% | 3.77% | 3.04% | EM dollar/rate transmission |
+| HYG | 79.21 | -0.28% | 0.23% | 0.98% | Credit market proxy |
+| HY OAS | 2.65% | 2.0 bp | -6.0 bp | -13.0 bp | Credit spread stress |
+| IG OAS | 0.81% | 2.0 bp | 3.0 bp | 6.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | -1.63 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 3.17 pp | n/a | EM relative stress |
 
 ## 4. Regime Probability
 
 | Regime | Probability | Interpretation |
 |---|---:|---|
-| R0 | 54.3% | High-rate absorption |
-| R1 | 24.5% | Bear steepening + dollar pressure |
-| R2 | 9.2% | Credit / sovereign stress spillover |
-| R3 | 12.0% | Rate decline / policy repair |
+| R0 | 66.2% | High-rate absorption |
+| R1 | 18.2% | Bear steepening + dollar pressure |
+| R2 | 6.4% | Credit / sovereign stress spillover |
+| R3 | 9.2% | Rate decline / policy repair |
 
 ## 5. Signal Evidence
 
-- **R0**: 10Y yield is high but not accelerating; DXY is stable
+- **R0**: 10Y yield is high but not accelerating; equity resilience with stable credit; DXY is stable
 - **R1**: credit spread pressure is not yet disorderly
 - **R2**: no strong evidence
 - **R3**: no strong evidence
