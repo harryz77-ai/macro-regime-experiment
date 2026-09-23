@@ -1,30 +1,30 @@
 {
-  "fetch_time_utc": "2026-09-22T01:43:23.708640+00:00",
+  "fetch_time_utc": "2026-09-23T01:38:30.272468+00:00",
   "previous_regime": "R1",
   "features": {
     "us2y_level": 4.76,
-    "us10y_level": 5.01,
-    "us30y_level": 5.34,
-    "us10y_5d_change_bp": 4.999999999999982,
-    "us10y_20d_change_bp": 31.99999999999994,
-    "us10y_60d_change_bp": 59.999999999999964,
-    "us30y_5d_change_bp": -0.9999999999999787,
-    "us30y_20d_change_bp": 10.999999999999943,
-    "us30y_60d_change_bp": 47.99999999999996,
-    "curve_10y2y": 0.25,
+    "us10y_level": 4.96,
+    "us30y_level": 5.29,
+    "us10y_5d_change_bp": -0.9999999999999787,
+    "us10y_20d_change_bp": 21.999999999999975,
+    "us10y_60d_change_bp": 55.99999999999996,
+    "us30y_5d_change_bp": -4.999999999999982,
+    "us30y_20d_change_bp": 2.000000000000046,
+    "us30y_60d_change_bp": 42.99999999999997,
+    "curve_10y2y": 0.20000000000000018,
     "curve_30y10y": 0.33000000000000007,
-    "hy_oas_level": 2.68,
+    "hy_oas_level": 2.66,
     "ig_oas_level": 0.77,
-    "hy_oas_5d_change_bp": 3.000000000000025,
-    "hy_oas_20d_change_bp": -2.0000000000000018,
-    "hy_oas_60d_change_bp": -14.999999999999991,
+    "hy_oas_5d_change_bp": -4.999999999999982,
+    "hy_oas_20d_change_bp": -2.9999999999999805,
+    "hy_oas_60d_change_bp": -13.999999999999968,
     "ig_oas_5d_change_bp": -3.0000000000000027,
     "ig_oas_20d_change_bp": -4.0000000000000036,
-    "ig_oas_60d_change_bp": 0.0,
-    "dxy_latest": 100.41999816894531,
-    "dxy_5d_return": 0.9652112339728847,
-    "dxy_20d_return": 1.6396711205958647,
-    "dxy_60d_return": -0.9957627262068836,
+    "ig_oas_60d_change_bp": 1.0000000000000009,
+    "dxy_latest": 100.64199829101562,
+    "dxy_5d_return": 0.9954809332131331,
+    "dxy_20d_return": 1.6585841323390138,
+    "dxy_60d_return": -0.7083685033666187,
     "spy_latest": 773.5,
     "spy_5d_return": 1.9110476577390623,
     "spy_20d_return": 1.266884441063465,
@@ -56,7 +56,7 @@
     "lqd_latest": 105.08999633789062,
     "lqd_5d_return": 0.7574240297392842,
     "lqd_20d_return": -0.36710741304101235,
-    "lqd_60d_return": -2.867081754482337,
+    "lqd_60d_return": -2.8670954535655824,
     "iwm_spy_20d_relative": -5.812206844270085,
     "eem_spy_20d_relative": 1.280789895197998,
     "qqq_spy_20d_relative": 2.770254392973226,
@@ -85,8 +85,8 @@
     "signal_probability": {
       "R0": 0.077388393636428,
       "R1": 0.8530659128688681,
-      "R2": 0.034772846747351975,
-      "R3": 0.034772846747351975
+      "R2": 0.03477284674735198,
+      "R3": 0.03477284674735198
     },
     "markov_prior": {
       "R0": 0.25,
@@ -98,7 +98,7 @@
       "R0": 0.13780245586367817,
       "R1": 0.7049928433647643,
       "R2": 0.08560235038577879,
-      "R3": 0.07160235038577878
+      "R3": 0.07160235038577879
     },
     "top_regime": "R1"
   },
@@ -107,42 +107,42 @@
       "us2y": {
         "group": "fred",
         "source": "FRED:DGS2",
-        "latest_date": "2026-09-18",
+        "latest_date": "2026-09-21",
         "freshness": "Acceptable",
         "error": null
       },
       "us10y": {
         "group": "fred",
         "source": "FRED:DGS10",
-        "latest_date": "2026-09-18",
+        "latest_date": "2026-09-21",
         "freshness": "Acceptable",
         "error": null
       },
       "us30y": {
         "group": "fred",
         "source": "FRED:DGS30",
-        "latest_date": "2026-09-18",
+        "latest_date": "2026-09-21",
         "freshness": "Acceptable",
         "error": null
       },
       "hy_oas": {
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
-        "latest_date": "2026-09-18",
+        "latest_date": "2026-09-21",
         "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
-        "latest_date": "2026-09-18",
+        "latest_date": "2026-09-21",
         "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-09-21",
+        "latest_date": "2026-09-22",
         "freshness": "Fresh",
         "error": null
       },
@@ -150,67 +150,67 @@
         "group": "yahoo",
         "source": "Yahoo:SPY",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "qqq": {
         "group": "yahoo",
         "source": "Yahoo:QQQ",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "iwm": {
         "group": "yahoo",
         "source": "Yahoo:IWM",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "tlt": {
         "group": "yahoo",
         "source": "Yahoo:TLT",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "uup": {
         "group": "yahoo",
         "source": "Yahoo:UUP",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "eem": {
         "group": "yahoo",
         "source": "Yahoo:EEM",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "hyg": {
         "group": "yahoo",
         "source": "Yahoo:HYG",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "lqd": {
         "group": "yahoo",
         "source": "Yahoo:LQD",
         "latest_date": "2026-09-21",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       }
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-09-21",
+    "latest_market_date": "2026-09-22",
     "overall_freshness": "Fresh"
   },
   "alerts": {
     "R1 continuation": "ON",
-    "R2 upgrade warning": "ON",
+    "R2 upgrade warning": "not confirmed",
     "R3 policy-repair signal": "not confirmed"
   }
 }
