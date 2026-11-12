@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-11-11T02:55:14.271428+00:00
-- Latest market date: 2026-11-10
+- Fetch time UTC: 2026-11-12T04:01:02.448482+00:00
+- Latest market date: 2026-11-11
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -21,17 +21,17 @@
 |---|---:|---:|---:|---:|---|
 | US 10Y yield | 4.880% | -3.0 bp | -36.0 bp | 25.0 bp | Long-end rate pressure |
 | US 30Y yield | 5.260% | -2.0 bp | -34.0 bp | 5.0 bp | Term premium / fiscal supply pressure |
-| DXY | 102.26 | 0.38% | 0.08% | 2.63% | Dollar pressure |
-| SPY | 749.92 | -0.59% | -3.61% | -2.70% | Broad risk asset |
-| QQQ | 674.76 | -1.54% | -9.25% | -7.45% | High-duration growth |
-| IWM | 280.58 | 0.28% | 1.40% | -7.48% | Small-cap financing sensitivity |
-| TLT | 80.88 | -0.28% | 3.20% | 0.21% | Long-duration bond stress |
-| EEM | 60.57 | -0.87% | -7.86% | -10.03% | EM dollar/rate transmission |
-| HYG | 77.18 | 0.26% | 0.12% | -2.09% | Credit market proxy |
+| DXY | 103.01 | 1.48% | 0.45% | 3.38% | Dollar pressure |
+| SPY | 759.81 | -0.91% | -1.27% | -0.75% | Broad risk asset |
+| QQQ | 690.38 | -0.23% | -5.29% | -3.68% | High-duration growth |
+| IWM | 283.09 | -0.33% | 4.32% | -5.46% | Small-cap financing sensitivity |
+| TLT | 80.92 | -1.03% | 3.00% | 0.29% | Long-duration bond stress |
+| EEM | 62.04 | 0.68% | -3.65% | -5.05% | EM dollar/rate transmission |
+| HYG | 77.35 | -0.22% | 1.23% | -1.26% | Credit market proxy |
 | HY OAS | 3.34% | -9.0 bp | 23.0 bp | 64.0 bp | Credit spread stress |
 | IG OAS | 0.91% | -3.0 bp | 8.0 bp | 10.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | 5.01 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | -4.25 pp | n/a | EM relative stress |
+| IWM - SPY relative | n/a | n/a | 5.59 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | -2.38 pp | n/a | EM relative stress |
 
 ## 4. Regime Probability
 
@@ -61,7 +61,7 @@
 ## 7. Risk Alerts
 
 - R1 continuation: **ON**
-- R2 upgrade warning: **ON**
+- R2 upgrade warning: **not confirmed**
 - R3 policy-repair signal: **ON**
 
 ## 8. Interpretation
