@@ -1,5 +1,5 @@
 {
-  "fetch_time_utc": "2026-11-26T05:17:30.129805+00:00",
+  "fetch_time_utc": "2026-11-27T05:14:32.030354+00:00",
   "previous_regime": "R1",
   "features": {
     "us2y_level": 4.63,
@@ -21,10 +21,10 @@
     "ig_oas_5d_change_bp": 5.999999999999995,
     "ig_oas_20d_change_bp": 9.999999999999998,
     "ig_oas_60d_change_bp": 16.999999999999993,
-    "dxy_latest": 103.81700134277344,
-    "dxy_5d_return": -0.07988467939030741,
-    "dxy_20d_return": 1.7414743348710404,
-    "dxy_60d_return": 4.275817485505984,
+    "dxy_latest": 103.74400329589844,
+    "dxy_5d_return": -0.15014266380122265,
+    "dxy_20d_return": 1.6699356772661433,
+    "dxy_60d_return": 4.2024968259388285,
     "spy_latest": 716.7000122070312,
     "spy_5d_return": -1.8488085146967093,
     "spy_20d_return": -7.200474618657704,
@@ -56,7 +56,7 @@
     "lqd_latest": 104.29000091552734,
     "lqd_5d_return": 1.1051860133636904,
     "lqd_20d_return": 0.5973138428890579,
-    "lqd_60d_return": -0.07283911656473796,
+    "lqd_60d_return": -0.07284642146797582,
     "iwm_spy_20d_relative": 2.7850979431826133,
     "eem_spy_20d_relative": -4.008591629096912,
     "qqq_spy_20d_relative": -5.434411136306338,
@@ -140,7 +140,7 @@
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-11-26",
+        "latest_date": "2026-11-27",
         "freshness": "Fresh",
         "error": null
       },
@@ -148,62 +148,62 @@
         "group": "yahoo",
         "source": "Yahoo:SPY",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "qqq": {
         "group": "yahoo",
         "source": "Yahoo:QQQ",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "iwm": {
         "group": "yahoo",
         "source": "Yahoo:IWM",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "tlt": {
         "group": "yahoo",
         "source": "Yahoo:TLT",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "uup": {
         "group": "yahoo",
         "source": "Yahoo:UUP",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "eem": {
         "group": "yahoo",
         "source": "Yahoo:EEM",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "hyg": {
         "group": "yahoo",
         "source": "Yahoo:HYG",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "lqd": {
         "group": "yahoo",
         "source": "Yahoo:LQD",
         "latest_date": "2026-11-25",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       }
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-11-26",
+    "latest_market_date": "2026-11-27",
     "overall_freshness": "Fresh"
   },
   "alerts": {
